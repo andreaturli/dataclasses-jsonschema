@@ -36,7 +36,7 @@ setup(
     author="Simon Knibbs",
     author_email="simon.knibbs@gmail.com",
     url="https://github.com/s-knibbs/dataclasses-jsonschema",
-    install_requires=requires,
+    # install_requires=requires,
     extras_require={
         "apispec": ["apispec"],
         "fast-validation": ["fastjsonschema"],
