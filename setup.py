@@ -1,11 +1,11 @@
 from setuptools import setup
 
-requires = [
-    "python-dateutil",
-    "jsonschema",
-    'typing_extensions;python_version<"3.8"',
-    'dataclasses;python_version<"3.7"',
-]
+# requires = [
+#     "python-dateutil",
+#     "jsonschema",
+#     'typing_extensions;python_version<"3.8"',
+#     'dataclasses;python_version<"3.7"',
+# ]
 
 test_dependencies = [
     "apispec_webframeworks",
